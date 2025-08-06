@@ -111,4 +111,4 @@ Count: 12
 
 ⚠️ Action Required: Too many 'CRITICAL' entries in /d/AWS-DevOps/Bash-Scripting/logs/System.log
 
-✅ Log analysis complete. Report saved to /d/AWS-DevOps/Bash-Scripting/logs/log_analysis_report.txt
+✅ Log analysis complete. Report saved to /d/AWS-DevOps/Bash-Scripting/Report/log_analysis_report.txt
