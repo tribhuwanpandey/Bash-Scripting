@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Use Bash-style path
+
 LOG_DIR="/d/AWS-DevOps/Bash-Scripting/logs"
 
 # Error patterns
@@ -12,7 +12,7 @@ LOG_FILES=$(find "$LOG_DIR" -type f -name "*.log")
 echo "Analyzing log files in $LOG_DIR"
 echo "==============================="
 
-# Single loop only (1 do ... done)
+
 for LOG_FILE in $LOG_FILES; do
     echo -e "\n📝 Processing file: $LOG_FILE"
 
