@@ -36,6 +36,3 @@ echo "Today is $today"
 
 To remove a variable:
 unset name
-
------------------------------------------------------------
-

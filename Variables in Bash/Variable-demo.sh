@@ -6,7 +6,7 @@ APP_LOG_FILE="Application.log"
 SYS_LOG_FILE="System.log"
 
 echo " analysing log files "
-echo "======================"
+echo "==================="
 
 echo -e "\nList of log files updated in last 24H"
 find $LOG_DIR -name "*.log" -mtime -1
@@ -28,5 +28,3 @@ grep -c "FATAL" "$LOG_DIR/$SYS_LOG_FILE"
 
 echo -e"\nNumber of CRITICAL logs in system.log file"
 grep -c "CRITICAL" "$LOG_DIR/$SYS_LOG_FILE"
-
-
